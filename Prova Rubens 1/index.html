@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Coluna esquerda -->
+            <div class="col-md-6 p-5" style="background-color: #E2E1E1;">
+                <div class="text-center">
+                    <img src="img/user.png" alt="Usuário" class="rounded-circle mb-4" style="height: 100px; width: 100px;">
+                </div>
+                <form>
+                    <div class="form-group text-center">
+                        <label for="loginUsuario" class="font-weight-bold">Login do Usuário</label>
+                        <input type="text" class="form-control" id="loginUsuario" placeholder="Login">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="senha" placeholder="Senha">
+                    </div>
+                    <!-- Botão Login com tamanho igual aos campos e degradê de cores -->
+                    <button type="submit" class="btn btn-custom">Login</button>
+                  
+                    <div class="form-group text-center">
+                        <label for="loginUsuario" class="font-weight-bold">Esqueceu a senha?</label>
+                    </div>
+                    <div class="d-flex justify-content-around mt-4">
+                        <img src="img/face.png" alt="Ícone 1" style="height: 40px; width: 40px;">
+                        <img src="img/twitter.png" alt="Ícone 2" style="height: 40px; width: 40px;">
+                        <img src="img/instagram.png" alt="Ícone 3" style="height: 40px; width: 40px;">
+                        <img src="img/linkedin.png" alt="Ícone 4" style="height: 40px; width: 40px;">
+                    </div>
+                </form>
+            </div>
+
+            <!-- Coluna direita -->
+            <div class="col-md-6 p-0">
+              
+                <div style="background-image: url('img/img1.png'); height: 100vh; background-size: cover; background-position: center;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .btn-custom {
+            background: linear-gradient(to bottom, #F47280, #EF803C);
+            width: 100%;
+            padding: 10px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</body>
+</html>

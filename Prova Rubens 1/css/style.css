@@ -1,0 +1,53 @@
+/* XS */
+h1 {
+  color: red;
+}
+/* SM */
+@media (min-width: 576px) {
+  h1 {
+    color: blue;
+  }
+}
+/* MD */
+@media (min-width: 768px) {
+  h1 {
+    color: green;
+  }
+}
+/* .btn-primary {
+  color: #fff;
+  background-color: orange;
+  border-color: black;
+} */
+/* .container {
+  background-color: #ccc;
+} */
+
+.container-fluid {
+  background-color: #888;
+}
+
+.container-sm {
+  margin-bottom: 20px;
+  border: 2px solid blue;
+}
+
+.container-md {
+  margin-bottom: 20px;
+  border: 2px solid crimson;
+}
+
+.container-lg {
+  border: 2px solid chocolate;
+}
+.container-xl {
+  border: 2px solid green;
+}
+.container-xxl {
+  border: 2px solid yellow;
+}
+.g-col-3 {
+  border: 1px solid black;
+}
+
+/* GRID CONTAINER*/
